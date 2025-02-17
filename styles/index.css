@@ -12,7 +12,56 @@ body {
     background-size: 715px 715px;
 }
 
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0px;
+}
+
 .holder {
     width: 1024px;
-    margin: 0 auto;
+    
+    margin: 0px auto;
+    padding: 10px;
+
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: black;
+}
+
+.pfpholder {
+    width: 202px;
+
+    margin: 0px auto;
+
+    text-align: center;
+}
+
+.pfp {
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+.pfpholder > em {
+    color: gray;
+}
+
+.hidingLT {
+    position: absolute;
+    top: 184px;
+    right: 200px;
+
+    width: 200px;
+
 }
