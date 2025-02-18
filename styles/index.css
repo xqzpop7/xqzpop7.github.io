@@ -50,11 +50,19 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .pfpholder {
+    display: flex;
+    flex-direction: column;
+
     width: 202px;
 
     margin: 0px auto;
+    padding: 50px 0px;
 
     text-align: center;
+}
+
+.pfpholder > em {
+    display: block;
 }
 
 .pfp {
@@ -71,7 +79,7 @@ h1,h2,h3,h4,h5,h6, p {
 
 #hidingLT {
     position: absolute;
-    top: 174px;
+    top: 290px;
     left: 750px;
 
     width: 200px;
