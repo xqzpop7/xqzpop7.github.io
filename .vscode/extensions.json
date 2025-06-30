@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        // Miscellaneous
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "ms-vscode.live-server"
+    ]
+}

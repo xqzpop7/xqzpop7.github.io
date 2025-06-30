@@ -1,0 +1,32 @@
+{
+    // Editor Settings
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.location": "top",
+    "breadcrumbs.enabled": false,
+
+    // Font Settings
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    
+    // Cursor Settings
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.bracketPairColorization.enabled": true,
+    
+    // Save Settings
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    },
+
+    // Git Settings
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+}
