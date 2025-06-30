@@ -5,6 +5,7 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.activityBar.location": "top",
     "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
 
     // Font Settings
     "editor.fontFamily": "JetBrains Mono",
@@ -29,4 +30,8 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
+
+    // Copilot And AI Settings
+    "chat.agent.enabled": false,
+    "chat.commandCenter.enabled": false,
 }

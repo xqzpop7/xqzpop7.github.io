@@ -1,2 +1,5 @@
 # xqzpop7.github.io
-Website.
+Repository for my website, mainly used as a link tree.
+
+## TODO
+- Use Win95.css?
