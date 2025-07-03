@@ -2,21 +2,34 @@
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 
-  modified for personal use by Fruity 
+  modified for personal use by FruityPop
   https://xqzpop7.github.io/
 */
 
-/* 1. Use a more-intuitive box-sizing model */
+/* 1. Make things look nice */
+:root {
+  font-family: 'Open Sans';
+  line-height: 1.5;
+  
+  color: #f5f7f8;
+  background-color: #242424;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 2. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* 2. Remove default margin */
+/* 3. Remove default margin */
 * {
   margin: 0;
 }
 
-/* 3. Enable keyword animations */
+/* 4. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
   html {
     interpolate-size: allow-keywords;
@@ -24,29 +37,29 @@
 }
 
 body {
-  /* 4. Add accessible line-height */
-  line-height: 1.5;
-  /* 5. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
+  /* 5. Centering */
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
 }
 
-/* 6. Improve media defaults */
+/* 8. Improve media defaults */
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
 }
 
-/* 7. Inherit fonts for form controls */
+/* 9. Inherit fonts for form controls */
 input, button, textarea, select {
   font: inherit;
 }
 
-/* 8. Avoid text overflows */
+/* 10. Avoid text overflows */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/* 9. Improve line wrapping */
+/* 11. Improve line wrapping */
 p {
   text-wrap: pretty;
 }

@@ -2,4 +2,6 @@
 Repository for my website, mainly used as a link tree.
 
 ## TODO
-- Use Win95.css?
+- Decide on a style.
+- Start a web-ring, maybe?
+- Figure out how to fade the name element in-and-out on hover.

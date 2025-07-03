@@ -1,0 +1,20 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+main > a > img {
+    transition: all .2s ease-in-out;
+
+    border-radius: 50%;
+}
+
+main > a > img:hover {
+    transform: scale(105%);
+}
+
+main > h1 {
+    margin: 1rem auto 0rem;
+    width: fit-content;
+}
