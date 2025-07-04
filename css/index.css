@@ -6,8 +6,6 @@ main {
 
 main > a > img {
     transition: all .2s ease-in-out;
-
-    border-radius: 50%;
 }
 
 main > a > img:hover {
