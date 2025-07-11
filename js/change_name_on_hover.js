@@ -6,5 +6,5 @@ nameElement.addEventListener('mouseover', () => {
 })
 
 nameElement.addEventListener('mouseout', () => {
-    nameElement.innerHTML = 'Fruity';
+    nameElement.innerHTML = 'FruityPop';
 })
