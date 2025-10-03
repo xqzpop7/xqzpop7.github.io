@@ -1,30 +1,38 @@
 @font-face {
-  font-family: "Tinos", "Times New Roman", Times, serif;
-  src: url(./assets/fonts/Tinos/Tinos-Regular.ttf) format(ttf);
+  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  src: local(Nimbus Roman),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.woff) format(woff),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.ttf) format(truetype);
   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Tinos", "Times New Roman", Times, serif;
-  src: url(./assets/fonts/Tinos/Tinos-Italic.ttf) format(ttf);
+  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  src: local(Nimbus Roman),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Italic.woff) format(woff),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.ttf) format(truetype);
   font-display: swap;
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Tinos", "Times New Roman", Times, serif;
-  src: url(./assets/fonts/Tinos/Tinos-Bold.ttf) format(ttf);
+  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  src: local(Nimbus Roman),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Bold.woff) format(woff),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.ttf) format(truetype);
   font-display: swap;
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Tinos", "Times New Roman", Times, serif;
-  src: url(./assets/fonts/Tinos/Tinos-BoldItalic.ttf) format(ttf);
+  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  src: local(Nimbus Roman),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-BoldItalic.woff) format(woff),
+    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.ttf) format(truetype);
   font-display: swap;
   font-style: italic;
   font-weight: 700;
