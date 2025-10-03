@@ -1,37 +1,44 @@
 {
-    // Editor Settings
-    "editor.wordWrap": "on",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.activityBar.location": "top",
-    "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false,
+  // Editor Settings
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.activityBar.location": "top",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
 
-    // Font Settings
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 16,
-    "editor.fontLigatures": true,
-    
-    // Cursor Settings
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.bracketPairColorization.enabled": true,
-    
-    // Save Settings
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 2000,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true
-    },
+  // Font Settings
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
 
-    // Git Settings
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
+  // Theme Settings
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "workbench.colorTheme": "Catppuccin Macchiato",
 
-    // Copilot And AI Settings
-    "chat.agent.enabled": false,
-    "chat.commandCenter.enabled": false,
+  // Cursor Settings
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.bracketPairColorization.enabled": true,
+
+  // Save Settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+
+  // Formatter settings.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+
+  // Git Settings
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // Copilot And AI Settings
+  "chat.agent.enabled": false,
+  "chat.commandCenter.enabled": false
 }

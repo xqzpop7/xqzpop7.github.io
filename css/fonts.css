@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  src: url(./assets/fonts/Tinos/Tinos-Regular.ttf) format(ttf);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  src: url(./assets/fonts/Tinos/Tinos-Italic.ttf) format(ttf);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  src: url(./assets/fonts/Tinos/Tinos-Bold.ttf) format(ttf);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  src: url(./assets/fonts/Tinos/Tinos-BoldItalic.ttf) format(ttf);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+}

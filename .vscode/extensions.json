@@ -1,8 +1,11 @@
 {
-    "recommendations": [
-        // Miscellaneous
-        "eamodio.gitlens",
-        "streetsidesoftware.code-spell-checker",
-        "ms-vscode.live-server"
-    ]
+  "recommendations": [
+    "Catppuccin.catppuccin-vsc",
+    "Catppuccin.catppuccin-vsc-icons",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ritwickdey.LiveServer",
+    "LeonardSSH.vscord"
+  ]
 }
