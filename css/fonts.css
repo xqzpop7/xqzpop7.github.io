@@ -1,38 +1,39 @@
 @font-face {
-  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  font-family: "Nimbus Roman";
   src: local("Nimbus Roman Regular"),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.woff) format(woff),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Regular.ttf) format(truetype);
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-Regular.woff) format(woff),
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-Regular.ttf) format(truetype);
   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  font-family: "Nimbus Roman";
   src: local("Nimbus Roman Italic"),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Italic.woff) format(woff),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Italic.ttf) format(truetype);
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-Italic.woff) format(woff),
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-Italic.ttf) format(truetype);
   font-display: swap;
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  font-family: "Nimbus Roman";
   src: local("Nimbus Roman Bold"),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Bold.woff) format(woff),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-Bold.ttf) format(truetype);
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-Bold.woff) format(woff),
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-Bold.ttf) format(truetype);
   font-display: swap;
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Nimbus Roman", "Times New Roman", Times, serif;
+  font-family: "Nimbus Roman";
   src: local("Nimbus Roman Bold Italic"),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-BoldItalic.woff) format(woff),
-    url(./assets/fonts/NimbusRoman/Nimbus-Roman-BoldItalic.ttf) format(truetype);
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-BoldItalic.woff) format(woff),
+    url(./../assets/fonts/NimbusRoman/Nimbus-Roman-BoldItalic.ttf)
+      format(truetype);
   font-display: swap;
   font-style: italic;
   font-weight: 700;
