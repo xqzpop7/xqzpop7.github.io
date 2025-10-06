@@ -15,6 +15,5 @@ main > #profile-picture-name > img:hover {
 
 main > #profile-picture-name > h1 {
   margin: 1rem auto 0;
-  line-height: 1;
   width: fit-content;
 }

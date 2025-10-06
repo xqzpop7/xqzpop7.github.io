@@ -11,8 +11,8 @@
   font-family: "Nimbus Roman", "Times New Roman", Times, serif;
   line-height: 1.5;
 
-  color: #f5f7f8;
-  background-color: #242424;
+  color: #000000;
+  background-color: #eac599;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,7 +43,7 @@ body {
   display: flex;
   place-items: center;
 
-  /* dvh or dynamic height takes into account mobile elements such as keyboard, any bars and so on and dynamically updates. */
+  /* Dynamic height takes into account mobile elements such as keyboard, any bars and so on and dynamically updates. */
   min-height: 100dvh;
 }
 

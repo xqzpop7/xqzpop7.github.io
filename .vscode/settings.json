@@ -40,5 +40,8 @@
 
   // Copilot And AI Settings
   "chat.agent.enabled": false,
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+
+  // Code Spell Checker
+  "cSpell.words": ["MINEEE", "xqzpop"]
 }
